@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Tyrone Jed Tumbaga.">
+  <title>Tyrone Jed Tumbaga | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav class="nav">
+      <a class="brand-mark" href="#home" aria-label="Back to home"><img src="assets/TJ_Logo.png" alt="TJ logo"></a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </nav>
+
+    <div class="hero-copy">
+      <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+      <h1>Welcome to my <span>Portfolio!</span></h1>
+      <p>This page highlights everything about my capabilities, creativity, and work in web development and software development.</p>
+    </div>
+
+    <div class="hero-message">
+      <p>For more information, please scroll down or click the navigation pages!</p>
+      <div class="quick-links" aria-label="Quick navigation">
+        <a href="#home" aria-label="Home">⌂</a>
+        <a href="#about" aria-label="About">◉</a>
+        <a href="#skills" aria-label="Skills">▣</a>
+        <a href="#contact" aria-label="Contact">✉</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="about section" id="about">
+      <div class="about-info">
+        <article class="info-card">
+          <div class="info-row">
+            <span class="info-icon">▣</span>
+            <p>Currently studying in Polytechnic College of Botolan with the course of Bachelor Science of Computer Science.</p>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">✎</span>
+            <p>Have fundamental skills in Java, Python and C Programming, intermediate artist and animator and novice storyteller.</p>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">▷</span>
+            <p>Has participated annual Newgrounds Events and Programming Challenges.</p>
+          </div>
+        </article>
+      </div>
+      <div class="profile">
+        <img class="profile-image" src="assets/Profile.JPG" alt="Portrait of Tyrone Jed Tumbaga">
+        <h2>About me:</h2>
+        <p>Tyrone Jed E. Tumbaga, aspiring 2D/3D Digital Animator, Traditional/Digital Artist and Software Developer.</p>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="skills-intro">
+        <h2>My Skills &amp; Contributions:</h2>
+        <p>I am capable of doing both digital and traditional arts alongside 2D Animations through Adobe Animate (or Flash) through concept arts and character designs. I make decent yet effective programming for databases and reservations.</p>
+      </div>
+
+      <div class="carousel" aria-label="Skills and contributions carousel">
+        <div class="carousel-viewport">
+          <div class="carousel-track" id="carousel-track">
+            <article class="slide active" data-slide="0" tabindex="0" aria-label="Show slide 1 description">
+              <img class="slide-image image-one" src="assets/SkillsandCon1.png" alt="First skills and contributions artwork">
+            </article>
+            <article class="slide" data-slide="1" tabindex="0" aria-label="Show slide 2 description">
+              <img class="slide-image image-two" src="assets/SkillsandCon2.png" alt="Second skills and contributions artwork">
+            </article>
+            <article class="slide" data-slide="2" tabindex="0" aria-label="Show slide 3 description">
+              <img class="slide-image image-three" src="assets/SkillsandCon3.png" alt="Third skills and contributions artwork">
+            </article>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button id="prev-slide" aria-label="Previous slide">←</button>
+          <div class="dots" id="carousel-dots" aria-label="Choose a slide">
+            <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+            <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+            <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+          </div>
+          <button id="next-slide" aria-label="Next slide">→</button>
+        </div>
+      </div>
+
+      <div class="carousel-copy">
+        <div class="carousel-heading">
+          <img class="mini-avatar" src="assets/Profile.JPG" alt="Profile thumbnail">
+          <strong id="slide-heading">Contributions and works can be shown here</strong>
+        </div>
+        <div class="quote-card">
+          <p id="slide-description">“Imagination is the beginning of creation. You imagine what you desire, you will what you imagine, and at last, you create what you will.” — George Bernard Shaw</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact" aria-label="Contact and social links">
+      <div class="contact-brand">
+        <div class="brand-mark large"><img src="assets/TJ_Logo.png" alt="TJ logo"></div>
+        <div>
+          <h2>For inquiries, requests or commissions.</h2>
+          <p>Contact me or leave a message.</p>
+        </div>
+      </div>
+
+      <form class="message-form" id="message-form">
+        <label class="sr-only" for="message">Your message</label>
+        <input id="message" type="text" placeholder="Write a message..." required>
+        <button type="submit" aria-label="Send message">➤</button>
+      </form>
+      <p class="form-note" id="form-note">The send button opens your email application.</p>
+
+      <nav class="social-links" aria-label="Social media links">
+        <!-- Replace the # values with your actual profile URLs before publishing. -->
+        <a class="social facebook" href="https://web.facebook.com/tyronejed.tumbaga.7" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">f</span>Facebook</a>
+        <a class="social github" href="https://github.com/TyroneJed425" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">⌘</span>GitHub</a>
+        <a class="social gmail" href="mailto:tyronejedtumbaga@pcb.edu.ph"><span aria-hidden="true">✉</span>Gmail</a>
+        <a class="social instagram" href="https://www.instagram.com/Ak4tzuk1/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">◎</span>Instagram</a>
+      </nav>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Tyrone Jed Tumbaga · Personal Portfolio</footer>
+  <script src="script.js"></script>
+</body>
+</html>
